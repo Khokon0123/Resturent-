@@ -3,25 +3,110 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-red: #DC2626;
+  --color-red-dark: #B91C1C;
+  --color-amber: #F59E0B;
+  --color-amber-dark: #D97706;
+  --color-bg: #FFFFFF;
+  --color-surface: #FFF8F0;
+  --color-surface-2: #FEF3C7;
+  --color-border: #E5E7EB;
+  --color-text: #111827;
+  --color-muted: #6B7280;
+  --color-halal: #16A34A;
+  --color-fresh: #0891B2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: var(--font-nunito), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Skip to content for accessibility */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: var(--color-red);
+  color: #fff;
+  border-radius: 0 0 4px 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Announcement bar marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 24s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .container-inner {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container-inner {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
