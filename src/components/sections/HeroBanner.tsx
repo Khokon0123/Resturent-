@@ -38,8 +38,8 @@ export default function HeroBanner() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1600&q=80"
-        alt="Fresh desi grocery market with fish, meat and vegetables"
+        src="/images/hero-bg.jpg"
+        alt="Radhuni authentic Bangladeshi spice masala packs"
         fill
         priority
         className="object-cover object-center"
