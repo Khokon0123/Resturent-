@@ -6,6 +6,7 @@ import type {
   StoreHours,
   StoreInfo,
 } from "@/types";
+import { deepFoodsGroceryProducts, deepFoodsFrozenProducts } from "./deepFoodsProducts";
 
 export const storeInfo: StoreInfo = {
   name: "Asia Bazaar",
@@ -486,6 +487,9 @@ export const announcementMessages = [
   "🕌 Prayer Mats & Islamic Items In Stock",
 ];
 
+// Merge Deep Foods products
+(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts);
+
 // Query utilities
 export function getProductsByCategory(category: string): Product[] {
   return products.filter((p) => p.category === category);
@@ -497,4 +501,8 @@ export function getFeaturedProducts(): Product[] {
 
 export function getProductBySlug(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
+}
+
+export function getProductsByBrand(brand: string): Product[] {
+  return products.filter((p) => p.brand === brand);
 }

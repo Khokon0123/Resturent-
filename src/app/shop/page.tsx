@@ -5,6 +5,8 @@ import ProductCard from "@/components/sections/ProductCard";
 import ShopByCategory from "@/components/sections/ShopByCategory";
 import { products } from "@/lib/data";
 
+const featuredShopProducts = products.filter((p) => !p.brand);
+
 export const metadata: Metadata = {
   title: "Shop All Products",
   description:
@@ -57,7 +59,7 @@ export default function ShopPage() {
         <div className="container-inner">
           <SectionHeading eyebrow="In Stock" title="All Available Products" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-            {products.map((product) => (
+            {featuredShopProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>

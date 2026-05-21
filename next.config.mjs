@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: "www.google.com",
         pathname: "/maps/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.grocerybabu.com",
+        pathname: "/**",
+      },
     ],
   },
 };

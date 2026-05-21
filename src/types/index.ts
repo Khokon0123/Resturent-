@@ -25,6 +25,7 @@ export interface Product {
   image: string;
   featured: boolean;
   inStock: boolean;
+  brand?: string;
 }
 
 export interface Category {

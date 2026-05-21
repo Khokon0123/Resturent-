@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import CategoryPageLayout from "@/components/sections/CategoryPageLayout";
+import GroceryPageLayout from "@/components/sections/GroceryPageLayout";
 import { getProductsByCategory } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -10,15 +10,11 @@ export const metadata: Metadata = {
 
 export default function GroceryPage() {
   const products = getProductsByCategory("grocery");
-  const subcategories = Array.from(new Set(products.map((p) => p.subcategory).filter(Boolean))) as string[];
 
   return (
-    <CategoryPageLayout
-      title="Grocery"
-      description="Rice, spices, lentils, oil & all your pantry essentials. Authentic desi brands you trust."
-      heroImage="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1600&q=80"
+    <GroceryPageLayout
       products={products}
-      subcategories={subcategories}
+      heroImage="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1600&q=80"
     />
   );
 }
