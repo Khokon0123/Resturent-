@@ -8,6 +8,7 @@ import type {
 } from "@/types";
 import { deepFoodsGroceryProducts, deepFoodsFrozenProducts } from "./deepFoodsProducts";
 import { radhuniProducts } from "./radhuniProducts";
+import { shaanGroceryProducts, shaanFrozenProducts } from "./shaanProducts";
 
 export const storeInfo: StoreInfo = {
   name: "Asia Bazaar",
@@ -489,7 +490,7 @@ export const announcementMessages = [
 ];
 
 // Merge brand products
-(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts);
+(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts);
 
 // Query utilities
 export function getProductsByCategory(category: string): Product[] {

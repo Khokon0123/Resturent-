@@ -26,9 +26,10 @@ const FROZEN_SECTIONS = [
 const BRANDS = [
   { id: "all", label: "All Brands" },
   { id: "Deep", label: "Deep" },
+  { id: "Shaan", label: "Shaan" },
 ];
 
-const COMING_SOON_BRANDS = ["Radhuni", "Shaan"];
+const COMING_SOON_BRANDS: string[] = [];
 
 export default function FrozenPageLayout({ products, heroImage }: FrozenPageLayoutProps) {
   const [activeBrand, setActiveBrand] = useState("all");

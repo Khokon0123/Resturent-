@@ -15,10 +15,12 @@ const GROCERY_SECTIONS = [
   { id: "rice", label: "Rice" },
   { id: "spices", label: "Pure Spices" },
   { id: "masala", label: "Masala Mixes" },
+  { id: "cooking-sauces", label: "Cooking Sauces" },
+  { id: "cooking-paste", label: "Cooking Pastes" },
   { id: "cooking-mixes", label: "Cooking & Dessert Mixes" },
   { id: "condiments", label: "Condiments & Sauces" },
-  { id: "bottle-spices", label: "Bottle Spices" },
   { id: "pickles", label: "Pickles & Chutneys" },
+  { id: "bottle-spices", label: "Bottle Spices" },
   { id: "snacks-mixes", label: "Snack Mixes" },
   { id: "snacks-sev", label: "Sev, Papdi & Fafda" },
   { id: "snacks-chips", label: "Chips & Popcorn" },
@@ -28,6 +30,7 @@ const GROCERY_SECTIONS = [
   { id: "snacks-nuts", label: "Nuts & Masala Peas" },
   { id: "lentils", label: "Dal & Lentils" },
   { id: "flour", label: "Flour & Grains" },
+  { id: "noodles", label: "Instant Noodles" },
   { id: "oil", label: "Cooking Oils" },
   { id: "ghee", label: "Ghee & Dairy" },
   { id: "mukhwas", label: "Mukhwas & Digestives" },
@@ -38,9 +41,10 @@ const BRANDS = [
   { id: "all", label: "All Brands" },
   { id: "Deep", label: "Deep" },
   { id: "Radhuni", label: "Radhuni" },
+  { id: "Shaan", label: "Shaan" },
 ];
 
-const COMING_SOON_BRANDS = ["Shaan"];
+const COMING_SOON_BRANDS: string[] = [];
 
 export default function GroceryPageLayout({ products, heroImage }: GroceryPageLayoutProps) {
   const [activeBrand, setActiveBrand] = useState("all");
