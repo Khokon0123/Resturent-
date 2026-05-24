@@ -17,6 +17,11 @@ const nextConfig = {
         hostname: "images.grocerybabu.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.sfbl.com.bd",
+        pathname: "/**",
+      },
     ],
   },
 };

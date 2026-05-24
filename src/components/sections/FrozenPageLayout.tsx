@@ -28,7 +28,7 @@ const BRANDS = [
   { id: "Deep", label: "Deep" },
 ];
 
-const COMING_SOON_BRANDS = ["Raduni", "Shaan"];
+const COMING_SOON_BRANDS = ["Radhuni", "Shaan"];
 
 export default function FrozenPageLayout({ products, heroImage }: FrozenPageLayoutProps) {
   const [activeBrand, setActiveBrand] = useState("all");

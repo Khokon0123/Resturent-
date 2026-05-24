@@ -15,6 +15,8 @@ const GROCERY_SECTIONS = [
   { id: "rice", label: "Rice" },
   { id: "spices", label: "Pure Spices" },
   { id: "masala", label: "Masala Mixes" },
+  { id: "cooking-mixes", label: "Cooking & Dessert Mixes" },
+  { id: "condiments", label: "Condiments & Sauces" },
   { id: "bottle-spices", label: "Bottle Spices" },
   { id: "pickles", label: "Pickles & Chutneys" },
   { id: "snacks-mixes", label: "Snack Mixes" },
@@ -35,9 +37,10 @@ const GROCERY_SECTIONS = [
 const BRANDS = [
   { id: "all", label: "All Brands" },
   { id: "Deep", label: "Deep" },
+  { id: "Radhuni", label: "Radhuni" },
 ];
 
-const COMING_SOON_BRANDS = ["Raduni", "Shaan"];
+const COMING_SOON_BRANDS = ["Shaan"];
 
 export default function GroceryPageLayout({ products, heroImage }: GroceryPageLayoutProps) {
   const [activeBrand, setActiveBrand] = useState("all");
