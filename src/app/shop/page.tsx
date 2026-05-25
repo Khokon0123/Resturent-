@@ -3,9 +3,9 @@ import Link from "next/link";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ProductCard from "@/components/sections/ProductCard";
 import ShopByCategory from "@/components/sections/ShopByCategory";
-import { products } from "@/lib/data";
+import { getProducts } from "@/lib/getProducts";
 
-const featuredShopProducts = products.filter((p) => !p.brand);
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Shop All Products",
@@ -13,10 +13,12 @@ export const metadata: Metadata = {
     "Browse all desi groceries, halal meat, fresh fish, frozen food, spices & more at Asia Bazaar, Alexandria VA.",
 };
 
-export default function ShopPage() {
+export default async function ShopPage() {
+  const allProducts = await getProducts();
+  const featuredShopProducts = allProducts.filter((p) => !p.brand);
+
   return (
     <>
-      {/* Page header */}
       <section
         className="py-14"
         style={{ background: "var(--color-surface-2)" }}
@@ -51,10 +53,8 @@ export default function ShopPage() {
         </div>
       </section>
 
-      {/* Category section */}
       <ShopByCategory />
 
-      {/* All products grid */}
       <section className="section-padding" style={{ background: "#fff" }}>
         <div className="container-inner">
           <SectionHeading eyebrow="In Stock" title="All Available Products" />

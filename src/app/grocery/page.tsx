@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GroceryPageLayout from "@/components/sections/GroceryPageLayout";
-import { getProductsByCategory } from "@/lib/data";
+import { getProducts } from "@/lib/getProducts";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Bangladeshi & Desi Grocery | Asia Bazaar Alexandria VA",
@@ -8,8 +10,9 @@ export const metadata: Metadata = {
     "Basmati & Kalijeera rice, Shaan masala, mustard oil, dal, atta flour & more. Authentic desi grocery in Alexandria, VA.",
 };
 
-export default function GroceryPage() {
-  const products = getProductsByCategory("grocery");
+export default async function GroceryPage() {
+  const allProducts = await getProducts();
+  const products = allProducts.filter((p) => p.category === "grocery");
 
   return (
     <GroceryPageLayout

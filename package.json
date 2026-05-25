@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.106.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
+    "iron-session": "^8.0.4",
     "lucide-react": "^1.8.0",
     "next": "14.2.35",
     "react": "^18",

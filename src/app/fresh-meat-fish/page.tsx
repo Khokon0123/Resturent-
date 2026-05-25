@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import CategoryPageLayout from "@/components/sections/CategoryPageLayout";
-import { getProductsByCategory } from "@/lib/data";
+import { getProducts } from "@/lib/getProducts";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Fresh Halal Meat & Fish | Asia Bazaar Alexandria VA",
@@ -8,8 +10,9 @@ export const metadata: Metadata = {
     "Daily fresh halal chicken, goat, beef & Ilish/Hilsa fish at Asia Bazaar. Bangladeshi and South Asian specialty cuts. Call to order.",
 };
 
-export default function FreshMeatFishPage() {
-  const products = getProductsByCategory("fresh-meat-fish");
+export default async function FreshMeatFishPage() {
+  const allProducts = await getProducts();
+  const products = allProducts.filter((p) => p.category === "fresh-meat-fish");
   const subcategories = Array.from(new Set(products.map((p) => p.subcategory).filter(Boolean))) as string[];
 
   return (

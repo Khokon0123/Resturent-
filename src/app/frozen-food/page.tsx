@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import FrozenPageLayout from "@/components/sections/FrozenPageLayout";
-import { getProductsByCategory } from "@/lib/data";
+import { getProducts } from "@/lib/getProducts";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Frozen Desi Food | Asia Bazaar Alexandria VA",
@@ -8,8 +10,9 @@ export const metadata: Metadata = {
     "Frozen paratha, samosa, spring rolls, frozen Hilsa fish & more. Ready-to-cook South Asian frozen food in Alexandria, VA.",
 };
 
-export default function FrozenFoodPage() {
-  const products = getProductsByCategory("frozen-food");
+export default async function FrozenFoodPage() {
+  const allProducts = await getProducts();
+  const products = allProducts.filter((p) => p.category === "frozen-food");
 
   return (
     <FrozenPageLayout

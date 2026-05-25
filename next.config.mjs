@@ -27,6 +27,11 @@ const nextConfig = {
         hostname: "www.shanfoods.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "**",
+        pathname: "/**",
+      },
     ],
   },
 };
