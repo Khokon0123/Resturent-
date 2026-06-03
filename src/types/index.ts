@@ -6,7 +6,8 @@ export type ProductCategory =
   | "appliances"
   | "clothing"
   | "jewelry"
-  | "religious";
+  | "religious"
+  | "drinks";
 
 export type BadgeType = "FRESH" | "HALAL" | "SALE" | "NEW" | "HOT";
 

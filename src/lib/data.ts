@@ -9,6 +9,8 @@ import type {
 import { deepFoodsGroceryProducts, deepFoodsFrozenProducts } from "./deepFoodsProducts";
 import { radhuniProducts } from "./radhuniProducts";
 import { shaanGroceryProducts, shaanFrozenProducts } from "./shaanProducts";
+import { drinksProducts } from "./drinksProducts";
+import { freshMeatProducts } from "./freshMeatProducts";
 
 export const storeInfo: StoreInfo = {
   name: "Asia Bazaar",
@@ -111,107 +113,113 @@ export const categories: Category[] = [
     count: 20,
     color: "#D97706",
   },
+  {
+    id: "drinks",
+    slug: "drinks",
+    label: "Drinks",
+    description: "Coca-Cola, Sprite, Pepsi, Rooh Afza, Maaza, Frooti & more",
+    icon: "GlassWater",
+    href: "/drinks",
+    image:
+      "https://images.unsplash.com/photo-1527960471264-932f39eb5846?w=600&q=80",
+    count: 36,
+    color: "#0891B2",
+  },
 ];
 
 export const products: Product[] = [
   // Fresh Meat & Fish
   {
     id: "1",
-    slug: "ilish-fish-hilsa",
-    name: "Ilish Fish (Hilsa)",
-    namebn: "ইলিশ মাছ",
+    slug: "hilsha-12-15",
+    name: "Hilsha 12/15",
+    namebn: "ইলিশ ১২/১৫",
     category: "fresh-meat-fish",
     subcategory: "fish",
     price: 12.99,
     unit: "per lb",
     badge: "FRESH",
     description:
-      "The king of Bengali fish. Fresh Hilsa delivered daily. Rich, flavorful, and perfect for bhuna or steaming.",
-    image:
-      "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+      "Premium Hilsha (Ilish) fish — the king of Bengali cuisine. Fresh daily. 12 to 15 pieces per unit. Perfect for sorshe ilish, bhapa ilish & bhuna.",
+    image: "https://ik.imagekit.io/3u72arpq9/product-image/3412_1722260179_Kolkata_Hilsa__600g_-_750g_.jpg",
     featured: true,
     inStock: true,
   },
   {
     id: "2",
-    slug: "rohu-fish",
-    name: "Rohu Fish",
-    namebn: "রুই মাছ",
+    slug: "rohu-fish-2-3kg",
+    name: "Rohu 2/3 kg",
+    namebn: "রুই মাছ ২/৩ কেজি",
     category: "fresh-meat-fish",
     subcategory: "fish",
-    price: 6.99,
+    price: 2.99,
     unit: "per lb",
     badge: "FRESH",
     description:
-      "Fresh Rohu fish, perfect for curry. Cleaned and cut on request.",
-    image:
-      "https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=600&q=80",
+      "Fresh Rohu (Rui) fish, 2 to 3 kg size. Great for curry, mustard gravy and kalia. Cleaned and cut on request.",
+    image: "https://ik.imagekit.io/3u72arpq9/product-image/2917_1694760703_Rohu_image.jpg",
     featured: false,
     inStock: true,
   },
   {
     id: "3",
     slug: "katla-fish",
-    name: "Katla Fish",
+    name: "Katla",
     namebn: "কাতলা মাছ",
     category: "fresh-meat-fish",
     subcategory: "fish",
-    price: 7.49,
+    price: 3.49,
     unit: "per lb",
     badge: "FRESH",
     description:
-      "Large, meaty Katla fish. Ideal for mustard gravy and festive cooking.",
-    image:
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80",
+      "Fresh Katla fish — large, meaty South Asian carp. Ideal for mustard gravy, doi katla and festive cooking.",
+    image: "https://ik.imagekit.io/3u72arpq9/product-image/2860_1756120053_Jumbo_Katla__Catla_Cut_Only_Gada_Pieces.jpg",
     featured: false,
     inStock: true,
   },
   {
     id: "4",
-    slug: "halal-chicken",
-    name: "Halal Chicken",
-    namebn: "হালাল মুরগি",
+    slug: "zabiha-whole-chicken",
+    name: "Zabiha Whole Chicken",
+    namebn: "যবেহা মুরগি",
     category: "fresh-meat-fish",
     subcategory: "chicken",
-    price: 3.99,
+    price: 2.99,
     unit: "per lb",
     badge: "HALAL",
-    description: "Fresh whole or cut halal chicken. Slaughtered daily.",
-    image:
-      "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=600&q=80",
+    description: "Fresh zabiha halal whole chicken. Hand-slaughtered daily. Non pre-stunned, hormone & antibiotic free.",
+    image: "https://onestophalal.com/cdn/shop/products/halal_chicken_whole_1.jpg?v=1578097153",
     featured: true,
     inStock: true,
   },
   {
     id: "5",
-    slug: "goat-meat",
-    name: "Goat Meat",
-    namebn: "খাসির মাংস",
+    slug: "baby-goat-whole-featured",
+    name: "Baby Goat Whole",
+    namebn: "ছাগলের মাংস",
     category: "fresh-meat-fish",
     subcategory: "goat",
-    price: 9.99,
+    price: 11.99,
     unit: "per lb",
     badge: "HALAL",
     description:
-      "Fresh halal goat / lamb. Perfect for biryani, rezala & curry.",
-    image:
-      "https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?w=600&q=80",
+      "Whole fresh halal baby goat. Perfect for Eid, Qurbani, biryani and rezala. Call ahead to order.",
+    image: "https://onestophalal.com/cdn/shop/products/half_goat_1_d681ad20-bbc9-4945-b50c-c5027900c599.jpg",
     featured: true,
     inStock: true,
   },
   {
     id: "6",
-    slug: "beef",
-    name: "Halal Beef",
-    namebn: "গরুর মাংস",
+    slug: "beef-mix",
+    name: "Beef Mix",
+    namebn: "গরুর মাংস মিক্স",
     category: "fresh-meat-fish",
     subcategory: "beef",
-    price: 8.49,
+    price: 4.99,
     unit: "per lb",
     badge: "HALAL",
-    description: "Premium halal beef cuts. Great for bhuna, kebab & stew.",
-    image:
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=600&q=80",
+    description: "Fresh halal beef mix — bone-in pieces. Great for bhuna, bhaat and stew.",
+    image: "https://taibahalalmeat.com/wp-content/uploads/2025/03/59494949-300x300.jpg",
     featured: false,
     inStock: true,
   },
@@ -490,7 +498,15 @@ export const announcementMessages = [
 ];
 
 // Merge brand products
-(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts);
+(products as Product[]).push(
+  ...deepFoodsGroceryProducts,
+  ...deepFoodsFrozenProducts,
+  ...radhuniProducts,
+  ...shaanGroceryProducts,
+  ...shaanFrozenProducts,
+  ...drinksProducts,
+  ...freshMeatProducts,
+);
 
 // Query utilities
 export function getProductsByCategory(category: string): Product[] {
