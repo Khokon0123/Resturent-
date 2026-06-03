@@ -264,6 +264,66 @@ export const deepFoodsGroceryProducts: Product[] = [
   // ── JAGGERY & SWEETENERS ────────────────────────────────────────────────
   p("deep-196", "Deep Coconut Jaggery Powder 1lb", "jaggery", 6.79, "pack", img("39366336373631333133313366356532613630373736")),
   p("deep-197", "Deep Karupatti Palm Jaggery Powder 1lb", "jaggery", 15.39, "pack", img("39366336373631333133323366356532613630373736")),
+
+  // ── DRY FRUITS ──────────────────────────────────────────────────────────
+  p("deep-269", "Deep Aloo Bukhara Dried Plums 7oz", "dry-fruits", 3.99, "pack", img("36373730364132453546354633313632363136433639")),
+  p("deep-270", "Deep Dry Apricots 7oz", "dry-fruits", 4.49, "pack", img("39366336303733373133383366356532613630373736")),
+  p("deep-271", "Deep Dry Dates 7oz", "dry-fruits", 4.49, "pack", img("39366336303733373133383366356532613630373736")),
+  p("deep-272", "Deep Dry Figs 14oz", "dry-fruits", 6.99, "pack", img("39366336303733373133383366356532613630373736")),
+  p("deep-273", "Deep Pumpkin Seeds 7oz", "dry-fruits", 3.99, "pack", img("39366336303733373133383366356532613630373736")),
+  p("deep-274", "Deep Green Raisins 7oz", "dry-fruits", 3.49, "pack", img("39366336323731363233353366356532613630373736")),
+  p("deep-275", "Deep Jumbo Peanuts 4lb", "dry-fruits", 9.99, "bag", img("39366336343664366536313332336532613630373736")),
+
+  // ── FRUIT BITES (AAMPAPAD) ───────────────────────────────────────────────
+  p("deep-276", "Deep Mango Bites Aampapad 7.8oz", "fruit-bites", 3.49, "pack", "https://img06.weeecdn.com/product/image/853/611/60CD9493B79B7942.png"),
+  p("deep-277", "Deep Green Mango Bites 7.8oz", "fruit-bites", 3.49, "pack", "https://freshcentralgrocery.com/cdn/shop/files/DeepGreenMangoBites_7.8OZ-220GM.webp?v=1739263628&width=1445"),
+  p("deep-278", "Deep Guava Bites 7.8oz", "fruit-bites", 3.49, "pack", "https://www.kesargrocery.com/images/P/Deep%20Guava%20Bites%20%287.8%20OZ%20-%20220%20GM%29.jpg"),
+  p("deep-279", "Deep Mix Fruit Bites 7.8oz", "fruit-bites", 3.49, "pack", "https://img06.weeecdn.com/product/image/853/611/60CD9493B79B7942.png"),
+
+  // ── BEVERAGES ────────────────────────────────────────────────────────────
+  p("deep-280", "Deep Mango Fruit Drink 250ml", "beverages", 1.49, "can", "https://cdn.powered-by-nitrosell.com/product_images/32/7966/deep%20mango%20drink%20250ml.jpeg"),
+  p("deep-281", "Deep Mango Fruit Drink 1.5L", "beverages", 3.99, "bottle", "https://cdn.powered-by-nitrosell.com/product_images/32/7966/deep%20mango%20drink%20250ml.jpeg"),
+
+  // ── LASSI & DAIRY ────────────────────────────────────────────────────────
+  p("deep-282", "Deep Mango Lassi 11oz", "dairy", 2.79, "bottle", "https://cdn.powered-by-nitrosell.com/product_images/33/8122/deep-mango-lassi-11oz.jpg"),
+  p("deep-283", "Deep Mango Lassi 32oz", "dairy", 5.99, "bottle", "https://www.kesargrocery.com/images/P/Deep%20India%20Style%20LASSI%20-%20MANGO%20%28945%20ML%20-%2032%20FL%20OZ%29.jpg"),
+
+  // ── CANNED GOODS & GROCERY ──────────────────────────────────────────────
+  p("deep-284", "Deep Coconut Milk 400ml", "canned-goods", 2.49, "can", img("39366336373631333133313366356532613630373736")),
+  p("deep-285", "Deep Alphonso Mango Pulp 30oz", "canned-goods", 4.49, "can", img("39366336373631333133323366356532613630373736")),
+  p("deep-286", "Deep Kesar Mango Pulp 30oz", "canned-goods", 4.49, "can", img("39366336373631333133323366356532613630373736")),
+
+  // ── SPICES (ADDITIONAL) ──────────────────────────────────────────────────
+  p("deep-287", "Deep Original Hing 1.58oz", "spices", 2.99, "pack", img("36373730364132453546354633353335373336433639")),
+  p("deep-288", "Deep Original Hing 3.17oz", "spices", 4.99, "pack", img("36373730364132453546354633353335373336433639")),
+  p("deep-289", "Deep Black Salt 3.5oz", "spices", 2.49, "pack", img("36373730364132453546354633353335373336433639")),
+  p("deep-290", "Deep Shah Jeera 7oz", "spices", 3.49, "pack", img("36373730364132453546354633373335373336433639")),
+  p("deep-291", "Deep Bay Leaves 1oz", "spices", 1.99, "pack", img("36373730364132453546354633353335373336433639")),
+  p("deep-292", "Deep Whole Turmeric 7oz", "spices", 2.99, "pack", img("36373730364132453546354633323335373336433639")),
+  p("deep-293", "Deep Citric Acid 4oz", "spices", 2.99, "pack", img("36373730364132453546354633353335373336433639")),
+
+  // ── PICKLES (ADDITIONAL) ─────────────────────────────────────────────────
+  p("deep-294", "Deep Garlic Pickle 10oz", "pickles", 3.59, "jar", img("39366336303734333733663566356532613630373736")),
+
+  // ── SNACKS (ADDITIONAL) ──────────────────────────────────────────────────
+  p("deep-295", "Deep Boondi 14.1oz", "snacks-mixes", 4.99, "pack", img("39366336303330333033363330336532613630373736")),
+  p("deep-296", "Deep Masala Boondi 10oz", "snacks-mixes", 3.49, "pack", img("39366336303330333033363330336532613630373736")),
+  p("deep-297", "Deep Plain Boondi 10oz", "snacks-mixes", 3.49, "pack", img("39366336303330333033363330336532613630373736")),
+  p("deep-298", "Deep Panipuri Shells 3.5oz", "snacks-mixes", 2.49, "pack", img("39366336303330333133363332336532613630373736")),
+  p("deep-299", "Deep Bombay Mix 12oz", "snacks-south-indian", 4.49, "pack", img("39366336303330333033363330336532613630373736")),
+  p("deep-300", "Deep Kerala Mixture 12oz", "snacks-south-indian", 4.49, "pack", img("39366336303330333033363330336532613630373736")),
+  p("deep-301", "Deep Madras Mix 12oz", "snacks-south-indian", 4.49, "pack", img("39366336303330333033363330336532613630373736")),
+
+  // ── SPECIAL FASTING FOODS (UPVAS) ───────────────────────────────────────
+  p("deep-302", "Deep Upvas Moraiyo 14oz", "special-foods", 3.49, "pack", img("36373730364132453546354633353333363636433639")),
+  p("deep-303", "Deep Upvas Moraiyo 28oz", "special-foods", 5.99, "pack", img("36373730364132453546354633353333363636433639")),
+  p("deep-304", "Deep Upvas Sabudana 2lb", "special-foods", 4.99, "bag", img("36373730364132453546354633353333363636433639")),
+
+  // ── CHUTNEYS (SHELF-STABLE 7.7oz) ───────────────────────────────────────
+  p("deep-305", "Deep Coriander Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
+  p("deep-306", "Deep Mint Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
+  p("deep-307", "Deep Green Chili Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
+  p("deep-308", "Deep Red Chili Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
 ];
 
 export const deepFoodsFrozenProducts: Product[] = [
@@ -353,4 +413,50 @@ export const deepFoodsFrozenProducts: Product[] = [
   // ── KATI ROLLS ──────────────────────────────────────────────────────────
   p("deep-267", "Deep Kati Roll Paneer Tikka 7oz", "kati-rolls", 4.39, "pack", img("36373730364132453546373437303732364236433639"), "frozen-food"),
   p("deep-268", "Deep Kati Roll Aloo Tikki 7oz", "kati-rolls", 4.39, "pack", img("36373730364132453546373436313732364236433639"), "frozen-food"),
+
+  // ── IQF FROZEN VEGETABLES ────────────────────────────────────────────────
+  p("deep-309", "Deep Baby Bhindi 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/3b4f7f8b0c7710b72f96b348d678d77432aadee3_533x.png", "frozen-food"),
+  p("deep-310", "Deep Bhindi Cut Okra 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/42f8284903bd17bddc90539c8e5c79c891416bda_533x.jpg", "frozen-food"),
+  p("deep-311", "Deep Carrots Sliced 12oz", "frozen-vegetables", 3.49, "pack", img("39366336303733373133383366356532613630373736"), "frozen-food"),
+  p("deep-312", "Deep Drumsticks Moringa 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/23c9efd280ea577b70607ecf2fc6903d4979e340_533x.png", "frozen-food"),
+  p("deep-313", "Deep Green Chilli 12oz", "frozen-vegetables", 3.49, "pack", "https://talesofindia.com.au/cdn/shop/files/Deep-Frozen-Green-Chillies-Hot-340g.jpg", "frozen-food"),
+  p("deep-314", "Deep Guvar 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/ba3dc26c5f40320e4a7861638f042d7ce2f10012_533x.png", "frozen-food"),
+  p("deep-315", "Deep Kantola 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/0a57e7174df86bf3648102d37ca87110515171c4_533x.png", "frozen-food"),
+  p("deep-316", "Deep Karela Ring Cut 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/f927131b4da0d0f8f23277e9aaea3cb2be7cfe31_533x.jpg", "frozen-food"),
+  p("deep-317", "Deep Palak Spinach 12oz", "frozen-vegetables", 3.99, "pack", "https://www.indusbasket.com/cdn/shop/products/vegetables-deep-frozen-spinach-palak-340-gm-20082921242790_1024x.jpg?v=1601845768", "frozen-food"),
+  p("deep-318", "Deep Parval Pointed Gourd 12oz", "frozen-vegetables", 3.99, "pack", img("39366336303330333033363330336532613630373736"), "frozen-food"),
+  p("deep-319", "Deep Punjabi Tinda 12oz", "frozen-vegetables", 3.99, "pack", "https://talesofindia.com.au/cdn/shop/files/b5347b4947ae9ef5403cd3870b9e558fe4814415_533x.jpg", "frozen-food"),
+  p("deep-320", "Deep Shredded Coconut 12oz", "frozen-vegetables", 3.49, "pack", "https://talesofindia.com.au/cdn/shop/files/798a7a717e489a62e13c7f55b7dda90ce492889d_533x.jpg", "frozen-food"),
+  p("deep-321", "Deep Amla Whole 12oz", "frozen-vegetables", 4.49, "pack", "https://shopatcloves.com/wp-content/uploads/2021/04/Amla-Whole-Deep-12oz.jpg", "frozen-food"),
+  p("deep-322", "Deep Green Peas 2lb", "frozen-vegetables", 5.99, "bag", "https://talesofindia.com.au/cdn/shop/files/dc8196e1b7ca7ecfcd71735556b5aecfcfb1d165_533x.jpg", "frozen-food"),
+  p("deep-323", "Deep Mix Vegetables 4-Way 2lb", "frozen-vegetables", 5.99, "bag", "https://talesofindia.com.au/cdn/shop/files/Deep-Mixed-Vegetables-907g-download.jpg", "frozen-food"),
+  p("deep-324", "Deep Green Mango Diced 12oz", "frozen-vegetables", 3.99, "pack", img("39366336373631333133313366356532613630373736"), "frozen-food"),
+  p("deep-325", "Deep Falsa 12oz", "frozen-vegetables", 3.99, "pack", "https://grosury.com/wp-content/uploads/2023/04/IMG_20230427_155843.jpg", "frozen-food"),
+  p("deep-326", "Deep Jamun 12oz", "frozen-vegetables", 3.99, "pack", "https://gandhifood.com/cdn/shop/files/image_1024x1024_2x_b61d7ee1-aafe-42d2-9f6f-4bc8b8abb563_1024x.jpg?v=1691513034", "frozen-food"),
+
+  // ── FROZEN VEG ENTREES (ADDITIONAL) ─────────────────────────────────────
+  p("deep-327", "Deep Dal Tadka 10oz", "frozen-entrees", 6.49, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-328", "Deep Eggplant Bharta 10oz", "frozen-entrees", 6.49, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-329", "Deep Punjabi Kadhi 10oz", "frozen-entrees", 6.49, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-330", "Deep Dal Makhani 10oz", "frozen-entrees", 7.29, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-331", "Deep Malai Kofta 10oz", "frozen-entrees", 7.49, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-332", "Deep Methi Malai Mutter 10oz", "frozen-entrees", 7.49, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-333", "Deep Navrattan Korma 10oz", "frozen-entrees", 7.99, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+  p("deep-334", "Deep Paneer Makhani 10oz", "frozen-entrees", 7.99, "pack", img("36373730364132453546354637303730363536433639"), "frozen-food"),
+
+  // ── FROZEN BREADS (ADDITIONAL) ──────────────────────────────────────────
+  p("deep-335", "Deep Lachcha Naan 5pc", "bread", 4.49, "pack", img("39366336323632373133373366356532613630373736"), "frozen-food"),
+  p("deep-336", "Deep Whole Wheat Naan 5pc", "bread", 4.49, "pack", img("39366336323632373133373366356532613630373736"), "frozen-food"),
+  p("deep-337", "Deep Garlic Naan Family Pack 12pc", "bread", 10.99, "pack", img("39366336323632373133373366356532613630373736"), "frozen-food"),
+  p("deep-338", "Deep Tandoori Naan Family Pack 16pc", "bread", 13.49, "pack", img("39366336323632373133373366356532613630373736"), "frozen-food"),
+  p("deep-339", "Deep Onion Kulcha 4pc", "bread", 4.49, "pack", img("39366336323632373333333366356532613630373736"), "frozen-food"),
+  p("deep-340", "Deep Makki Ki Roti 5pc", "bread", 4.29, "pack", img("39366336323632373133373366356532613630373736"), "frozen-food"),
+  p("deep-341", "Deep Lachcha Paratha 5pc", "bread", 4.79, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-342", "Deep Ajwain Paratha 5pc", "bread", 4.79, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-343", "Deep Homestyle Paratha 5pc", "bread", 4.79, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-344", "Deep Masala Paratha 5pc", "bread", 4.99, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-345", "Deep Methi Paratha 5pc", "bread", 4.99, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-346", "Deep Aloo Paratha Family Pack 16pc", "bread", 13.49, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-347", "Deep Gobi Paratha 4pc", "bread", 5.19, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
+  p("deep-348", "Deep Mooli Paratha 4pc", "bread", 5.19, "pack", img("39366336323632373133313366356532613630373736"), "frozen-food"),
 ];
