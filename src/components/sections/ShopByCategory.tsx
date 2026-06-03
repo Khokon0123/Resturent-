@@ -8,6 +8,7 @@ import {
   Leaf,
   Plug,
   Star,
+  GlassWater,
   ArrowRight,
 } from "lucide-react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
@@ -21,6 +22,7 @@ const iconMap: Record<string, React.ElementType> = {
   Leaf,
   Plug,
   Star,
+  GlassWater,
 };
 
 export default function ShopByCategory() {

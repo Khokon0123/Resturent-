@@ -12,6 +12,7 @@ interface FrozenPageLayoutProps {
 }
 
 const FROZEN_SECTIONS = [
+  { id: "frozen-vegetables", label: "IQF Frozen Vegetables" },
   { id: "appetizers", label: "Samosas, Kachoris & Bites" },
   { id: "bread", label: "Naan, Kulcha & Paratha" },
   { id: "south-indian", label: "South Indian" },
