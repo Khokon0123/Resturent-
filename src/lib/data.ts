@@ -932,8 +932,87 @@ export const announcementMessages = [
   "🕌 Prayer Mats & Islamic Items In Stock",
 ];
 
+// ── NANAK PRODUCTS ────────────────────────────────────────────────────────
+const nanakProducts: Product[] = [
+  {
+    id: "nanak-1",
+    slug: "nanak-pure-desi-ghee",
+    name: "Nanak Pure Desi Ghee 400g",
+    category: "grocery",
+    subcategory: "ghee",
+    price: 9.99,
+    unit: "400g",
+    badge: "HOT",
+    description: "Nanak Pure Desi Ghee — made from 100% pure cow milk. Rich aroma, golden colour. Perfect for cooking, tadka and halwa.",
+    image: "https://images.squarespace-cdn.com/content/v1/62df38bd768870226dced4a0/1663721053226-19KTB77V2NLCIXHCTAE0/Effects3.jpg?format=2500w",
+    featured: true,
+    inStock: true,
+    brand: "Nanak",
+  },
+  {
+    id: "nanak-2",
+    slug: "nanak-paneer",
+    name: "Nanak Paneer 400g",
+    category: "grocery",
+    subcategory: "dairy",
+    price: 5.99,
+    unit: "400g",
+    badge: "FRESH",
+    description: "Nanak fresh Paneer — soft, firm and perfect for palak paneer, paneer tikka, karahi and curries.",
+    image: "https://static1.squarespace.com/static/62df38bd768870226dced4a0/62ecd969d0402a7f85047496/6358556938df077c077cb8b4/1687365484774/paneer-722.jpg?format=2500w",
+    featured: true,
+    inStock: true,
+    brand: "Nanak",
+  },
+  {
+    id: "nanak-3",
+    slug: "nanak-rasmalai",
+    name: "Nanak Rasmalai 1kg",
+    category: "grocery",
+    subcategory: "sweets",
+    price: 8.99,
+    unit: "1kg",
+    badge: "HOT",
+    description: "Nanak Rasmalai — soft, spongy cheese dumplings soaked in sweetened, cardamom-flavoured cream. A classic South Asian dessert.",
+    image: "https://static1.squarespace.com/static/62df38bd768870226dced4a0/62ecd969d0402a7f85047496/631cd0d063eb30325ae82773/1687883413545/rasmalai-413.png?format=2500w",
+    featured: true,
+    inStock: true,
+    brand: "Nanak",
+  },
+  {
+    id: "nanak-4",
+    slug: "nanak-gulab-jamun",
+    name: "Nanak Gulab Jamun 1kg",
+    category: "grocery",
+    subcategory: "sweets",
+    price: 8.99,
+    unit: "1kg",
+    badge: "HOT",
+    description: "Nanak Gulab Jamun — soft milk-solid dumplings drenched in rose-scented sugar syrup. Ready to serve warm or cold.",
+    image: "https://images.squarespace-cdn.com/content/v1/62df38bd768870226dced4a0/1662832510308-M13A7PC9BA5GY181AXUJ/GulabjamunProp.jpg?format=2500w",
+    featured: false,
+    inStock: true,
+    brand: "Nanak",
+  },
+  {
+    id: "nanak-5",
+    slug: "nanak-gajar-halwa",
+    name: "Nanak Gajar Halwa 850g",
+    category: "grocery",
+    subcategory: "sweets",
+    price: 7.99,
+    unit: "850g",
+    badge: "NEW",
+    description: "Nanak Gajar Halwa — slow-cooked shredded carrots in pure ghee, milk and sugar, flavoured with cardamom and garnished with nuts.",
+    image: "https://images.squarespace-cdn.com/content/v1/62df38bd768870226dced4a0/1735590096975-J6XUT4GR6AQRGB6I1JUE/Gajar+Halwa2.jpg?format=2500w",
+    featured: false,
+    inStock: true,
+    brand: "Nanak",
+  },
+];
+
 // Merge brand products
-(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts, ...drinksProducts);
+(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts, ...drinksProducts, ...nanakProducts);
 
 // Query utilities
 export function getProductsByCategory(category: string): Product[] {

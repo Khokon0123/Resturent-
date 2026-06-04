@@ -36,12 +36,13 @@ const GROCERY_SECTIONS = [
   { id: "noodles", label: "Instant Noodles" },
   { id: "oil", label: "Cooking Oils" },
   { id: "ghee", label: "Ghee & Dairy" },
-  { id: "dairy", label: "Lassi & Dairy" },
+  { id: "dairy", label: "Paneer, Lassi & Dairy" },
   { id: "canned-goods", label: "Canned Goods & Pulp" },
   { id: "beverages", label: "Mango & Fruit Drinks" },
   { id: "mukhwas", label: "Mukhwas & Digestives" },
   { id: "jaggery", label: "Jaggery & Sweeteners" },
   { id: "special-foods", label: "Fasting & Special Foods" },
+  { id: "sweets", label: "Sweets & Mithai" },
 ];
 
 const BRANDS = [
@@ -49,6 +50,7 @@ const BRANDS = [
   { id: "Deep", label: "Deep" },
   { id: "Radhuni", label: "Radhuni" },
   { id: "Shaan", label: "Shaan" },
+  { id: "Nanak", label: "Nanak" },
 ];
 
 const COMING_SOON_BRANDS: string[] = [];
