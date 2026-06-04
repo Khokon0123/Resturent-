@@ -324,6 +324,10 @@ export const deepFoodsGroceryProducts: Product[] = [
   p("deep-306", "Deep Mint Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
   p("deep-307", "Deep Green Chili Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
   p("deep-308", "Deep Red Chili Chutney 7.7oz", "chutneys", 3.49, "jar", img("39366336303739333433663566356532613630373736")),
+
+  // ── YOGURT (DAHI) ────────────────────────────────────────────────────────
+  p("deep-349", "Deep Dahi Whole Milk Yogurt 2lb", "dairy", 3.99, "tub", "https://www.kesargrocery.com/images/P/DDW5.JPG"),
+  p("deep-350", "Deep Dahi Whole Milk Yogurt 4lb", "dairy", 6.99, "tub", "https://www.kesargrocery.com/images/P/DDW5.JPG"),
 ];
 
 export const deepFoodsFrozenProducts: Product[] = [
