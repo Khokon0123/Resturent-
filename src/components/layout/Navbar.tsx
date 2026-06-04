@@ -6,7 +6,7 @@ import { storeInfo } from "@/lib/data";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Fresh Meat & Fish", href: "/fresh-meat-fish" },
+  { label: "Meat & Fish", href: "/fresh-meat-fish" },
   { label: "Grocery", href: "/grocery" },
   { label: "Frozen Food", href: "/frozen-food" },
   { label: "Drinks", href: "/drinks" },
