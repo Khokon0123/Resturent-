@@ -88,7 +88,7 @@ export const drinksProducts: Product[] = [
   d("drink-027", "Real Mango Juice 200ml",             "juices", 1.29, "bottle", maaza600,  "Real"),
   d("drink-028", "Real Guava Juice 200ml",             "juices", 1.29, "bottle", maaza600,  "Real"),
   d("drink-029", "Minute Maid Lemonade 12oz Can",      "juices", 1.29, "can",    sprite,    "Coca-Cola"),
-  d("drink-030", "Apple Juice 64oz",                   "juices", 3.99, "bottle", fanta,     "Motts"),
+  d("drink-030", "Apple Juice 64oz",                   "juices", 3.99, "bottle", fanta,     "Mott&apos;s"),
 
   // ── ENERGY DRINKS ────────────────────────────────────────────────────────
   d("drink-031", "Red Bull Energy Drink 8.4oz",        "energy-drinks", 2.99, "can", redBull, "Red Bull"),

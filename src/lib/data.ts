@@ -10,6 +10,7 @@ import { deepFoodsGroceryProducts, deepFoodsFrozenProducts } from "./deepFoodsPr
 import { radhuniProducts } from "./radhuniProducts";
 import { shaanGroceryProducts, shaanFrozenProducts } from "./shaanProducts";
 import { drinksProducts } from "./drinksProducts";
+import { mixedBrandProducts } from "./mixedBrandProducts";
 
 export const storeInfo: StoreInfo = {
   name: "Asia Bazaar",
@@ -1012,7 +1013,7 @@ const nanakProducts: Product[] = [
 ];
 
 // Merge brand products
-(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts, ...drinksProducts, ...nanakProducts);
+(products as Product[]).push(...deepFoodsGroceryProducts, ...deepFoodsFrozenProducts, ...radhuniProducts, ...shaanGroceryProducts, ...shaanFrozenProducts, ...drinksProducts, ...nanakProducts, ...mixedBrandProducts);
 
 // Query utilities
 export function getProductsByCategory(category: string): Product[] {
