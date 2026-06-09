@@ -42,6 +42,53 @@ const sujataAtta    = "https://www.kesargrocery.com/images/P/sujata-chakki-aata.
 const aashirvaadAtta = "https://www.kesargrocery.com/images/P/1773177579-aashirvaad-whole-wheat-atta.jpg";
 const goldenTempAtta = "https://www.kesargrocery.com/images/P/golden-temple-durum.jpg";
 
+// TEA
+const waghBakri     = "https://www.kesargrocery.com/images/P/wagh-bakri-premium-250gm.jpg";
+const waghBakriBags = "https://www.kesargrocery.com/images/P/wagh-bakri-masala-chai-100bags.jpg";
+const tetleyBlack   = "https://www.kesargrocery.com/images/P/tetley-black-tea.jpg";
+const tetleyMasala  = "https://www.kesargrocery.com/images/P/tetley-masala-chai.jpg";
+const lipton        = "https://www.kesargrocery.com/images/P/lipton-yellow-label-450gm.jpg";
+const redLabel      = "https://www.kesargrocery.com/images/P/brooke-bond-red-label-450gm.jpg";
+const tapriTea      = "https://www.kesargrocery.com/images/P/tapri-family-mixture-tea.jpg";
+const vitalTea      = "https://www.kesargrocery.com/images/P/vital-ctc-masala-tea.jpg";
+const ispahaniTea   = "https://www.kesargrocery.com/images/P/ispahani-mirzapore-best-leaf-tea.jpg";
+const alokozay      = "https://www.kesargrocery.com/images/P/alokozay-green-tea.jpg";
+const quikTea       = "https://www.kesargrocery.com/images/P/quik-tea-masala.jpg";
+
+// BISCUITS
+const sooperImg     = "https://cosmocashcarry.com/wp-content/uploads/2023/07/peek-freans-sooper-biscuits-600x600.jpg";
+const rioImg        = "https://cosmocashcarry.com/wp-content/uploads/2024/02/Peek-Freans-Rio-Strawberry-Biscuit-112g-600x600.jpg";
+const cocomoImg     = "https://www.southasiancentral.com/wp-content/uploads/Bisconni-Cocomo-94g.webp";
+const clickImg      = "https://www.hkarimbuksh.com/cdn/shop/products/Peek_20Freans_20Click_20Biscuits_20_Family_20Pack_20142g_1_487e6d01-38c4-411c-b23e-3c8834b81328_1024x.jpg?v=1629530910";
+const chocolattoImg = "https://nazarjanssupermarket.com/cdn/shop/products/bisconni-chocolatto-biscuit-1x8-nazar-jan-s-supermarket.jpg?v=1715266415";
+const goodDay       = "https://britannia-international.com/wp-content/uploads/2024/01/brit-GD-packaging-GCCNZAUSEU-super-saver-pack-8x72g-butter-smile_FOP.jpg";
+const goodDayPista  = "https://britannia-international.com/wp-content/uploads/2024/01/brit-GD-packaging-GCCNZAUSEU-super-saver-pack-8x72g-pista-smile_FOP-1.jpg";
+const bourbon       = "https://freshcentralgrocery.com/cdn/shop/products/biscuit-britannia-bourbon.jpg?v=1738861061";
+const treatImg      = "https://mauryagrocery.com/cdn/shop/files/download_60_2c8b662a-eb3f-4ce9-8772-94518e26f0b5.jpg?v=1707272251";
+const parleG        = "https://www.kesargrocery.com/images/P/Parle_G.jpg";
+const cakeRuskImg   = "https://onestophalal.com/cdn/shop/products/kcb_cake_rusks_regular_1.jpg?v=1573184220";
+const teaRuskKCB    = "https://www.southasiancentral.com/wp-content/uploads/KCB-Tea-Rusk-Round-200g-600x600.webp";
+const specialRusk   = "https://onestophalal.com/cdn/shop/products/kcb_cake_rusks_special_1.jpg?v=1573184304";
+const milkRusk      = "https://www.jfkgrocery.com/cdn/shop/files/BRITANNIA_TOASTEA_MILK_RUSK_c5f22da5-98a0-4525-af20-b628dc028342_1024x1024.jpg?v=1743436922";
+const sujiRusk      = "https://grocerybasket.ca/cdn/shop/products/Suji-Rusk-Toastea-Britannia_1024x1024.png?v=1611817378";
+const nankhataiImg  = "https://masalasupermarket.com/wp-content/uploads/2025/11/1278.png";
+const khariImg      = "https://www.kesargrocery.com/images/T/deep-khari-200g.jpg";
+const darpflicImg   = "https://www.kesargrocery.com/images/P/darpflik-butter-cookies.jpg";
+const lexusImg      = "https://www.kesargrocery.com/images/P/lexus-cream-biscuits.jpg";
+
+// DRY MILK
+const nidoSmall     = "https://www.kesargrocery.com/images/P/nestle-nido-400gm.jpg";
+const nidoLarge     = "https://www.kesargrocery.com/images/P/nestle-nido-1800gm.jpg";
+const danoMilk      = "https://www.kesargrocery.com/images/P/dano-dry-whole-milk.jpg";
+
+// NOODLES (extra)
+const mrNoodles     = "https://www.kesargrocery.com/images/P/mr-noodles-chicken-cup.jpg";
+const bakeParlor    = "https://www.kesargrocery.com/images/P/bake-parlor-noodles.jpg";
+const cocolaNood    = "https://www.kesargrocery.com/images/P/cocola-noodles.jpg";
+
+// BESAN
+const meeraBesan    = "https://www.kesargrocery.com/images/P/meera-gram-flour-4lb.jpg";
+
 export const mixedBrandProducts: Product[] = [
 
   // ── FROZEN BREADS / PARATHAS / ROTIS ──────────────────────────────────────
@@ -99,4 +146,61 @@ export const mixedBrandProducts: Product[] = [
   f("mix-042", "Golden Temple Atta 20lb",              "flour", 17.99, "20lb", goldenTempAtta, "Golden Temple","grocery"),
   f("mix-043", "Sujata Gold Atta 10lb",                "flour", 14.99, "10lb", sujataAtta,     "Sujata",       "grocery"),
   f("mix-044", "Teer Atta 10lb",                       "flour", 12.99, "10lb", sujataAtta,     "Teer",         "grocery"),
+
+  // ── GRAM FLOUR / BESAN ────────────────────────────────────────────────────
+  f("mix-045", "Meera Gram Flour (Besan) 4lb",          "flour", 5.99, "4lb", meeraBesan,     "Meera",        "grocery"),
+
+  // ── TEA & HOT DRINKS ──────────────────────────────────────────────────────
+  f("mix-046", "Wagh Bakri Premium Loose Tea 250g",     "tea", 5.99, "250g",  waghBakri,    "Wagh Bakri",   "grocery", "HOT"),
+  f("mix-047", "Wagh Bakri Masala Chai Tea Bags 100ct", "tea", 6.99, "100ct", waghBakriBags,"Wagh Bakri",   "grocery"),
+  f("mix-048", "Tetley Black Tea 72 Bags",              "tea", 5.49, "72ct",  tetleyBlack,  "Tetley",       "grocery"),
+  f("mix-049", "Tetley Masala Chai 72 Bags",            "tea", 5.99, "72ct",  tetleyMasala, "Tetley",       "grocery"),
+  f("mix-050", "Lipton Yellow Label Tea 450g",          "tea", 8.99, "450g",  lipton,       "Lipton",       "grocery"),
+  f("mix-051", "Brooke Bond Red Label Tea 450g",        "tea", 7.99, "450g",  redLabel,     "Brooke Bond",  "grocery", "HOT"),
+  f("mix-052", "Brooke Bond Red Label Tea 1.8kg",       "tea", 24.99, "1.8kg", redLabel,    "Brooke Bond",  "grocery"),
+  f("mix-053", "Tapri Family Mixture Tea",              "tea", 8.99, "pack",  tapriTea,     "Tapri",        "grocery"),
+  f("mix-054", "Vital CTC Masala Tea 200g",             "tea", 5.99, "200g",  vitalTea,     "Vital",        "grocery"),
+  f("mix-055", "Ispahani Mirzapore Best Leaf Tea 400g", "tea", 7.99, "400g",  ispahaniTea,  "Ispahani",     "grocery"),
+  f("mix-056", "Alokozay Green Tea 100 Bags",           "tea", 4.99, "100ct", alokozay,     "Alokozay",     "grocery"),
+  f("mix-057", "Quik Tea Masala",                       "tea", 4.99, "pack",  quikTea,      "Quik Tea",     "grocery"),
+
+  // ── BISCUITS, RUSKS & COOKIES ─────────────────────────────────────────────
+  f("mix-058", "Peek Freans Sooper Biscuits",           "biscuits", 2.99, "pack",  sooperImg,    "Peek Freans", "grocery"),
+  f("mix-059", "Peek Freans Rio Biscuits",              "biscuits", 2.99, "pack",  rioImg,       "Peek Freans", "grocery"),
+  f("mix-060", "Bisconni Cocomo Cream Biscuits",        "biscuits", 2.99, "pack",  cocomoImg,    "Bisconni",    "grocery"),
+  f("mix-061", "Britannia Good Day Butter Cookies 600g","biscuits", 8.99, "600g",  goodDay,      "Britannia",   "grocery"),
+  f("mix-062", "Britannia Good Day Pistachio Almond",   "biscuits", 4.99, "pack",  goodDayPista, "Britannia",   "grocery"),
+  f("mix-063", "Britannia Bourbon Biscuits",            "biscuits", 2.49, "pack",  bourbon,      "Britannia",   "grocery"),
+  f("mix-064", "Parle-G Original Glucose Biscuits 800g","biscuits", 4.99, "800g",  parleG,       "Parle",       "grocery"),
+  f("mix-065", "KCB Cake Rusk 400g",                   "biscuits", 5.99, "400g",  cakeRuskImg,  "KCB",         "grocery"),
+  f("mix-066", "Britannia ToasTea Milk Rusk",           "biscuits", 5.99, "pack",  milkRusk,     "Britannia",   "grocery"),
+  f("mix-067", "Deep Nankhatai Cookies",                "biscuits", 3.99, "pack",  nankhataiImg, "Deep",        "grocery"),
+  f("mix-068", "Deep Khari Twisted Original",           "biscuits", 3.49, "pack",  khariImg,     "Deep",        "grocery"),
+
+  // ── DRY MILK & POWDER ─────────────────────────────────────────────────────
+  f("mix-069", "Nestle NIDO Dry Whole Milk 400g",       "dry-milk", 8.99,  "400g",  nidoSmall, "Nestle",  "grocery"),
+  f("mix-070", "Nestle NIDO Dry Whole Milk 1.8kg",      "dry-milk", 24.99, "1.8kg", nidoLarge, "Nestle",  "grocery"),
+  f("mix-071", "DANO Dry Whole Milk 400g",              "dry-milk", 7.99,  "400g",  danoMilk,  "DANO",    "grocery"),
+
+  // ── NOODLES (additional) ──────────────────────────────────────────────────
+  f("mix-072", "Mr. Noodles Chicken Flavour Cup 60g",   "noodles", 1.49, "60g",   mrNoodles,  "Mr. Noodles", "grocery"),
+  f("mix-073", "Bake Parlor Hot & Sour Noodles",        "noodles", 2.49, "pack",  bakeParlor, "Bake Parlor", "grocery"),
+  f("mix-074", "Cocola Chicken Masala Noodles 4-pack",  "noodles", 3.99, "4pk",   cocolaNood, "Cocola",      "grocery"),
+
+  // ── MORE BISCUITS ─────────────────────────────────────────────────────────
+  f("mix-075", "Peek Freans Click Biscuits",            "biscuits", 2.99, "pack",  clickImg,     "Peek Freans", "grocery"),
+  f("mix-076", "Bisconni Chocolatto Biscuits 58g",      "biscuits", 1.99, "58g",   chocolattoImg,"Bisconni",    "grocery"),
+  f("mix-077", "Britannia Treat Cream Cookies",         "biscuits", 3.49, "pack",  treatImg,     "Britannia",   "grocery"),
+  f("mix-078", "Darpflik Coconut Cookies",              "biscuits", 3.49, "pack",  darpflicImg,  "Darpflik",    "grocery"),
+  f("mix-079", "Darpflik Butter Cookies",               "biscuits", 3.49, "pack",  darpflicImg,  "Darpflik",    "grocery"),
+  f("mix-080", "Deep Cake Cookies",                     "biscuits", 3.99, "pack",  nankhataiImg, "Deep",        "grocery"),
+  f("mix-081", "KCB Tea Rusk 200g",                     "biscuits", 4.99, "200g",  teaRuskKCB,   "KCB",         "grocery"),
+  f("mix-082", "Britannia ToasTea Suji Rusk",           "biscuits", 5.99, "pack",  sujiRusk,     "Britannia",   "grocery"),
+  f("mix-083", "KCB Special Cake Rusk",                 "biscuits", 6.49, "pack",  specialRusk,  "KCB",         "grocery"),
+  f("mix-084", "KCB Premium Rusk",                      "biscuits", 5.99, "pack",  cakeRuskImg,  "KCB",         "grocery"),
+  f("mix-085", "Lexus Cream Biscuits",                  "biscuits", 3.49, "pack",  lexusImg,     "Generic",     "grocery"),
+  f("mix-086", "Nan Khatai Cookies",                    "biscuits", 3.99, "pack",  nankhataiImg, "Generic",     "grocery"),
+  f("mix-087", "Bi Toast Ghee Toast",                   "biscuits", 3.99, "pack",  sooperImg,    "Bi Toast",    "grocery"),
+  f("mix-088", "KCB Coconut Cake Rusk",                 "biscuits", 5.99, "pack",  cakeRuskImg,  "KCB",         "grocery"),
+  f("mix-089", "Mirch Masala Crunchy Snacks",           "biscuits", 2.49, "pack",  mirchParatha, "Mirch Masala","grocery"),
 ];
