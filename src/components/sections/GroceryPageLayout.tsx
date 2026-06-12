@@ -54,6 +54,7 @@ const BRANDS = [
   { id: "Radhuni", label: "Radhuni" },
   { id: "Shaan", label: "Shaan" },
   { id: "Nanak", label: "Nanak" },
+  { id: "Laziza", label: "Laziza" },
 ];
 
 const COMING_SOON_BRANDS: string[] = [];
