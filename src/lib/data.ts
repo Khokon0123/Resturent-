@@ -442,7 +442,7 @@ export const products: Product[] = [
     unit: "per lb",
     badge: "FRESH",
     description: "Fresh Katla — large, meaty carp. Ideal for mustard gravy, doi maach and festive Bengali cooking.",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80",
+    image: "/katla-fish.jpg",
     featured: false,
     inStock: true,
   },
