@@ -4,8 +4,8 @@
   "name": "Asia Bazaar",
   "description": "South Asian grocery and halal meat market in Alexandria, Virginia.",
   "url": "https://asiabazaarak.com",
-  "telephone": "+1-703-555-0192",
-  "email": "info@asiabazaarak.com",
+  "telephone": "+1-703-360-9333",
+  "email": "smarttechworlewide@gmail.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "7864 Richmond Hwy",
@@ -14,7 +14,7 @@
     "postalCode": "22306",
     "addressCountry": "US"
   },
-  "openingHours": ["Mo-Fr 09:00-21:00", "Sa 08:00-22:00", "Su 09:00-20:00"],
+  "openingHours": ["Mo-Su 09:00-21:30"],
   "hasMap": "https://maps.google.com/?q=7864+Richmond+Hwy+Alexandria+VA+22306",
   "priceRange": "$",
   "servesCuisine": ["Bangladeshi", "Pakistani", "Indian", "South Asian"]
